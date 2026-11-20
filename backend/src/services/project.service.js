@@ -1,9 +1,18 @@
-const getAllProjects = async () => {    
-const projects = await Project.findAll();
-  return projects;
-}
+const getAllProjects = async () => {
+  return [
+    { id: 1, name: 'DevPulse' },
+    { id: 2, name: 'ByteSieve' },
+  ];
+};
 
 const getProject = async (projectId) => {
-  const project = await Project.findByPk(projectId);
-   return projects;
-}   
+  return {
+    id: projectId,
+    name: 'DevPulse',
+  };
+};
+
+module.exports = {
+  getAllProjects,
+  getProject,
+};
