@@ -37,9 +37,9 @@ Node.js 생태계를 중심으로 백엔드 시스템 설계부터 프론트엔�
 
 - [x] Express 서버 기본 실행
 - [x] Routes / Controllers 분리
-- [ ] Services 계층 분리
-- [ ] Middleware 구성
-- [ ] Config 환경 설정 분리
+- [x] Services 계층 분리
+- [x] Middleware 구성
+- [x] Config 환경 설정 분리
 - [ ] 공통 응답 유틸리티 구현
 - [ ] 공통 에러 처리 미들웨어 구현
 - [ ] 404 Not Found 처리
